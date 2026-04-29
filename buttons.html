@@ -1,12 +1,19 @@
 <style> .register_one {
     background-color: rgb(127, 81, 20);
     color: white;
-    border: none;
+    border-color: black;
     height: 35px;
     width: 100px;
     border-radius: 10px;
     cursor: pointer;
     margin-right: 30px;
+}
+.register_one:hover{
+    background-color: white;
+    color: rgb(127, 81, 20);
+}
+.register_one:active{
+    opacity: 0.7;
 }
 .starting_one {
     height: 38px;
@@ -28,8 +35,10 @@
     font-weight: bold;
     font-size: 16px;
     margin-left: 30px;
+    transition: background-color: white;
 
 }
+
 
 </style>
 <button class="register_one">Register</button>
