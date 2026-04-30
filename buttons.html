@@ -9,11 +9,10 @@
     margin-right: 30px;
 }
 .register_one:hover{
-    background-color: white;
-    color: rgb(127, 81, 20);
-}
-.register_one:active{
     opacity: 0.7;
+}   
+.register_one:active{
+    
 }
 .starting_one {
     height: 38px;
@@ -35,10 +34,21 @@
     font-weight: bold;
     font-size: 16px;
     margin-left: 30px;
-    transition: background-color: white;
+    transition: background-color 0.25s,
+        color 0.25s;
+    box-shadow: 6px 6px 3px red;
 
 }
+.tweet_one:hover {
+    background-color: black;
+    color: blue;
+    opacity: 0.7;
 
+
+}
+.tweet_one:active {
+    box-shadow: 4px 4px 3px red;
+}
 
 </style>
 <button class="register_one">Register</button>
