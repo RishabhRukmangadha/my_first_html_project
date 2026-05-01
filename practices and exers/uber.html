@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Uber</title>
+        <style>
+            p {
+                font-family: Arial;
+            }
+            .title {
+                font-size: 39px;
+                margin-top: 0px;
+                margin-bottom: 20px;
+            }
+            .pick {
+                display: block;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-right: 70px;
+        
+            }
+            .drop {
+                display: block;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                margin-top: 10px;
+                padding-right: 70px;
+                margin-bottom: 25px;
+            }
+            .request {
+                background-color: black;
+                border: none;
+                color: white;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 10px;
+                padding-left: 10px;
+                border-radius: 5px;
+                cursor: pointer;
+                margin-right: 9px;
+                box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+            }
+            .schedule {
+                background-color: rgb(223, 220, 220);
+                border: none;
+                color: black;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 10px;
+                padding-left: 10px;
+                border-radius: 5px;
+                cursor: pointer;
+                box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+            }
+            .request:active {
+                box-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+            }
+            .schedule:active {
+                box-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+            }
+            .uber {
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <img class="uber" src="uber.png">
+        <p class="title">Request a ride now</p>
+        <input class="pick" type="text" placeholder="Enter pickup loction">
+        <input class="drop" type="text" placeholder="Enter destinaiton">
+        <button class="request">Request now</button>
+        <button class="schedule">Schedule later</button>
+    
+    </body>
+</html>
