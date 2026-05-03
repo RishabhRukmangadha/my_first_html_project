@@ -2,18 +2,29 @@
 <html>
     <head>
         <title>Youtube</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
         <style>
-            .t1,.t2 {
-                width:400px;
+            .t1, .t2 {
+                width: 400px;
+            }
                 
-            }
+            
             p {
-                font-family: Arial;
+                font-family: Roboto, Arial;
                 font-size: 20px;
-                width:400px;
+                margin-top:0px;
+                margin-bottom: 0px;
             }
-            .divi, .divi2 {
+            .divi {
                 display: inline-block;
+                vertical-align: top;
+            }
+            .divi2 {
+                display:inline-block;
                 vertical-align: top;
             }
             .divi {
@@ -22,21 +33,66 @@
             .search {
                 display: block;
             }
+            .pfp, .text {
+                display: inline-block;
+            }
+            .pfp {
+                width:50px;
+                vertical-align: top;
+            }
+            .text {
+                width: 300px;
+            }
+            .cpic {
+                width: 40px;
+                border-radius: 50px;
+            }
+            .vidtitle {
+                margin-top: 0px;
+                font-size: 18px;
+                font-weight: bold;
+                line-height: 25px;
+                margin-bottom:12px;
+            }
+            .videothumb {
+                margin-bottom: 10px;
+            }
+            .author {
+                color: gray;
+                font-size: 16px;
+                margin-bottom: 4px;
+            }
+            .views {
+                color: gray;
+                font-size: 16px;
+                
+            }
         </style>
     </head>
     <body>
-        <input class="search" type="text" placeholder="Search";>
+        <input class="search" type="text" placeholder="Search">
         <div class="divi">
-        <img class="t1" src="thumbnail-1.webp">
-        <p>Talking tech and AI with Google CEO Sundar Pichai</p>
-        <p>Marques Brownlee</p>
-        <p>3.4m views &middot 6 months ago </p>
+            <div class="videothumb"><img class="t1" src="thumbnail-1.webp"></div>
+            <div>
+                <div class="pfp">
+                    <img class="cpic" src="channel-1.jpeg">
+                </div>
+                <div class="text"><p class="vidtitle" >Talking tech and AI with Google CEO Sundar Pichai</p>
+        <p class="author" >Marques Brownlee</p>
+        <p class="views" >3.4m views &middot 6 months ago </p></div>
         </div>
-         <div class="divi2">
-        <img class="t2" src="thumbnail-2.webp">
-        <p>Try Not To Laugh Part-34</p>
-        <p>Markiplier</p>
-        <p>2.3m views &middot 9 months ago </p>
+        </div>
+         
+        <div class="divi2">
+            <div class="videothumb"><img class="t1" src="thumbnail-2.webp"></div>
+            <div>
+                <div class="pfp">
+                    <img class="cpic" src="channel-1.jpeg">
+                </div>
+                <div class="text"><p class="vidtitle" >Try Not To Laugh Part-35</p>
+        <p class="author" >Markiplier</p>
+        <p class="views" >2.3m views &middot 11 months ago </p></div>
+        </div>
         </div>
         
     </body>
